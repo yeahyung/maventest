@@ -2,7 +2,6 @@ import java.io.IOException;
 
 public class MavenMain {
     public static void main(String[] args) throws IOException {
-        args = new String[]{"produce", "test", "producer:9092"};
         String topicName = args[1];
         String brokers = args[2];
 
